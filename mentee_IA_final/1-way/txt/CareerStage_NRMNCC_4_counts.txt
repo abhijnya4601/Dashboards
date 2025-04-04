@@ -1,0 +1,16 @@
+== Cleaned Counts for CareerStage (CareerStage_NRMNCC_4) ==
+ CareerStage_NRMNCC_4  Count
+                  4.0   1918
+                  6.0    332
+                  1.0    332
+                  8.0    129
+                  7.0     12
+
+== Descriptive Stats for Mentorship Hours by CareerStage ==
+                       count       mean        std   min   25%   50%   75%    max
+CareerStage_NRMNCC_4                                                             
+1.0                    332.0  16.873494  29.423267  1.00  4.75  10.0  20.0  400.0
+4.0                   1918.0  13.779327  15.087787  0.25  5.00  10.0  20.0  210.0
+6.0                    332.0   8.420181  12.554490  0.50  3.00   5.0  10.0  180.0
+7.0                     12.0  12.416667  10.543920  2.00  5.75  10.0  17.0   40.0
+8.0                    129.0  12.666667  10.500992  1.00  6.00  10.0  15.0   52.0

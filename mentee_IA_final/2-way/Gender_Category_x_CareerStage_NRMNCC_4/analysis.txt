@@ -1,0 +1,36 @@
+== Descriptive & Statistical Analysis: Gender_Category × CareerStage_NRMNCC_4 on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+CareerStage_NRMNCC_4  1.0   4.0  6.0  7.0  8.0
+Gender_Category                               
+Female                257  1696  336    6  117
+Gender_Other            1    37    8    0    1
+Male                  138   616   40    6   43
+
+Expected Counts:
+CareerStage_NRMNCC_4         1.0          4.0         6.0       7.0         8.0
+Gender_Category                                                                
+Female                289.264688  1715.865536  280.499091  8.765597  117.605088
+Gender_Other            5.636584    33.435191    5.465778  0.170806    2.291641
+Male                  101.098728   599.699273   98.035130  3.063598   41.103271
+
+Chi-Square Test:
+Chi2: 73.1240, df: 8, p-value: 0.0000
+Significant: Yes
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+Gender_Category  CareerStage_NRMNCC_4  count      mean       std   min   max
+         Female                   1.0    257 15.756809 31.173284  1.00 400.0
+         Female                   4.0   1696 13.540831 14.571307  0.25 210.0
+         Female                   6.0    336  8.898810 15.623944  0.50 180.0
+         Female                   7.0      6 12.000000  5.059644  6.00  20.0
+         Female                   8.0    117 12.683761 11.847923  1.00  90.0
+   Gender_Other                   1.0      1 30.000000       NaN 30.00  30.0
+   Gender_Other                   4.0     37 10.189189  7.978575  1.00  40.0
+   Gender_Other                   6.0      8  6.875000  5.642631  2.00  15.0
+   Gender_Other                   8.0      1  6.000000       NaN  6.00   6.0
+           Male                   1.0    138 18.684783 22.117724  1.00 125.0
+           Male                   4.0    616 14.561688 17.176518  0.50 200.0
+           Male                   6.0     40  7.650000  4.953890  1.00  20.0
+           Male                   7.0      6 12.833333 14.784000  2.00  40.0
+           Male                   8.0     43 12.674419 11.722426  1.00  52.0

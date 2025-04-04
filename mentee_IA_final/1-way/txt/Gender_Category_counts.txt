@@ -1,0 +1,12 @@
+== Cleaned Counts for Gender (Gender_Category) ==
+Gender_Category  Count
+         Female   1982
+           Male    679
+   Gender_Other     35
+
+== Descriptive Stats for Mentorship Hours by Gender ==
+                  count       mean        std   min  25%   50%   75%    max
+Gender_Category                                                            
+Female           1982.0  13.037967  16.874776  0.25  5.0  10.0  17.0  400.0
+Gender_Other       35.0  10.342857   8.670243  1.00  3.5  10.0  13.5   40.0
+Male              679.0  14.843888  18.177304  0.50  5.0  10.0  20.0  200.0

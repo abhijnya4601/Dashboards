@@ -1,0 +1,30 @@
+== Descriptive & Statistical Analysis: ParentGuardianEducation × CareerStage_NRMNCC_4 on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+CareerStage_NRMNCC_4     1.0   4.0  6.0  7.0  8.0
+ParentGuardianEducation                          
+1.0                      235  1262  328    8  117
+2.0                      163   997   29    4   44
+
+Expected Counts:
+CareerStage_NRMNCC_4            1.0          4.0         6.0       7.0       8.0
+ParentGuardianEducation                                                         
+1.0                      243.520552  1382.193285  218.434264  7.342328  98.50957
+2.0                      154.479448   876.806715  138.565736  4.657672  62.49043
+
+Chi-Square Test:
+Chi2: 178.3825, df: 4, p-value: 0.0000
+Significant: Yes
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+ ParentGuardianEducation  CareerStage_NRMNCC_4  count      mean       std  min   max
+                     1.0                   1.0    235 18.100000 32.977906 1.00 400.0
+                     1.0                   4.0   1262 13.161054 14.270118 0.25 210.0
+                     1.0                   6.0    328  8.835366 15.665132 0.50 180.0
+                     1.0                   7.0      8 15.000000 12.142017 2.00  40.0
+                     1.0                   8.0    117 13.034188 10.707661 1.00  52.0
+                     2.0                   1.0    163 14.825153 19.477950 1.00 125.0
+                     2.0                   4.0    997 12.707121 11.339126 0.50 160.0
+                     2.0                   6.0     29  8.137931  4.969364 2.00  20.0
+                     2.0                   7.0      4  7.250000  3.201562 4.00  10.0
+                     2.0                   8.0     44 11.590909 14.250774 1.00  90.0

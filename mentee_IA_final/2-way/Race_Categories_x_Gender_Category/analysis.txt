@@ -1,0 +1,41 @@
+== Descriptive & Statistical Analysis: Race_Categories × Gender_Category on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+Gender_Category  Female  Gender_Other  Male
+Race_Categories                            
+Asian               442             9   168
+Black               362             5   122
+Hispanic            455             8   155
+OTHER               131             4    67
+White              1023            21   331
+
+Expected Counts:
+Gender_Category       Female  Gender_Other        Male
+Race_Categories                                       
+Asian             452.209204      8.808053  157.982743
+Black             357.237965      6.958220  124.803815
+Hispanic          451.478656      8.793824  157.727520
+OTHER             147.570693      2.874357   51.554950
+White            1004.503482     19.565546  350.930972
+
+Chi-Square Test:
+Chi2: 10.2000, df: 8, p-value: 0.2513
+Significant: No
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+Race_Categories Gender_Category  count      mean       std  min   max
+          Asian          Female    442 12.919683 17.710727 1.00 160.0
+          Asian    Gender_Other      9 11.555556  6.085045 2.00  20.0
+          Asian            Male    168 13.660714 17.069015 1.00 160.0
+          Black          Female    362 10.120856 14.401208 0.25 150.0
+          Black    Gender_Other      5  9.800000  7.981228 1.00  20.0
+          Black            Male    122 14.086066 22.553031 0.50 200.0
+       Hispanic          Female    455 12.843956 13.986496 0.50 150.0
+       Hispanic    Gender_Other      8  6.375000  4.926242 1.00  15.0
+       Hispanic            Male    155 15.119355 20.558286 0.50 160.0
+          OTHER          Female    131 15.961832 21.189767 1.00 180.0
+          OTHER    Gender_Other      4 13.000000  5.715476 7.00  20.0
+          OTHER            Male     67 16.880597 15.923608 1.00  93.0
+          White          Female   1023 13.934018 18.496041 1.00 400.0
+          White    Gender_Other     21 10.095238 10.069284 1.00  40.0
+          White            Male    331 15.070997 14.358250 1.00 120.0
