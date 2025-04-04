@@ -1,0 +1,33 @@
+== 3-Way Descriptive Analysis: Race_Categories × Gender_Category × CareerStage_NRMNCC_4 on Freq_Ment2_Hours_Clean ==
+
+Race_Categories Gender_Category  CareerStage_NRMNCC_4  count      mean       std  min   max
+          Asian          Female                   1.0     48 28.937500 34.795088  2.0 140.0
+          Asian          Female                   5.0      6 32.333333 35.758449  4.0 100.0
+          Asian          Female                   8.0      1  4.000000       NaN  4.0   4.0
+          Asian    Gender_Other                   8.0      1 10.000000       NaN 10.0  10.0
+          Asian            Male                   1.0     48 31.604167 27.488287  5.0 120.0
+          Asian            Male                   5.0      2 30.000000 28.284271 10.0  50.0
+          Black          Female                   1.0     10  8.000000  3.771236  2.0  15.0
+          Black          Female                   5.0      3 38.000000 27.784888 20.0  70.0
+          Black          Female                   8.0      1 15.000000       NaN 15.0  15.0
+          Black            Male                   1.0      9 25.222222 17.115620  5.0  50.0
+       Hispanic          Female                   1.0     10 23.600000 14.292189  8.0  50.0
+       Hispanic          Female                   5.0      8 34.000000 30.312656  4.0  80.0
+       Hispanic          Female                   7.0      1 20.000000       NaN 20.0  20.0
+       Hispanic    Gender_Other                   5.0      1  6.000000       NaN  6.0   6.0
+       Hispanic            Male                   1.0     21 26.214286 22.224182  4.0  80.0
+       Hispanic            Male                   5.0      4 23.000000 15.874508  8.0  42.0
+       Hispanic            Male                   8.0      1 25.000000       NaN 25.0  25.0
+          OTHER          Female                   1.0     20 31.350000 27.061869  1.0 100.0
+          OTHER          Female                   5.0      6 28.166667 15.038839  4.0  40.0
+          OTHER            Male                   1.0     27 27.981481 25.970576  2.0 100.0
+          OTHER            Male                   8.0      1 20.000000       NaN 20.0  20.0
+          White          Female                   1.0    224 25.962054 19.488059  1.0 100.0
+          White          Female                   5.0     25 41.400000 43.247351  5.0 200.0
+          White          Female                   7.0      2 15.000000  7.071068 10.0  20.0
+          White          Female                   8.0      7 20.428571 14.045843  6.0  40.0
+          White    Gender_Other                   1.0      1  6.000000       NaN  6.0   6.0
+          White    Gender_Other                   8.0      1 30.000000       NaN 30.0  30.0
+          White            Male                   1.0    207 32.231884 36.116644  1.0 350.0
+          White            Male                   5.0      5 44.800000 65.078414  8.0 160.0
+          White            Male                   8.0      4 20.750000 14.908052  8.0  40.0

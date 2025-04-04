@@ -1,0 +1,10 @@
+== 3-Way Descriptive Analysis: Gender_Category × ParentGuardianEducation × CareerStage_NRMNCC_4 on Freq_Ment2_Hours_Clean ==
+
+Gender_Category  ParentGuardianEducation  CareerStage_NRMNCC_4  count      mean       std  min   max
+         Female                      1.0                   1.0    230 26.915217 24.757037  1.0 140.0
+         Female                      1.0                   7.0      1 10.000000       NaN 10.0  10.0
+         Female                      2.0                   1.0     78 23.192308 15.510414  2.0  80.0
+         Female                      2.0                   7.0      2 20.000000  0.000000 20.0  20.0
+   Gender_Other                      1.0                   1.0      1  6.000000       NaN  6.0   6.0
+           Male                      1.0                   1.0    227 31.074890 27.945683  2.0 200.0
+           Male                      2.0                   1.0     84 31.285714 43.734294  1.0 350.0

@@ -1,0 +1,43 @@
+== Descriptive & Statistical Analysis: Race_Categories × CareerStage_NRMNCC_4 on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+CareerStage_NRMNCC_4  1.0  5.0  7.0  8.0
+Race_Categories                         
+Asian                  97    8    0    2
+Black                  19    3    0    1
+Hispanic               31   13    1    1
+OTHER                  47    6    0    1
+White                 436   30    2   12
+
+Expected Counts:
+CareerStage_NRMNCC_4         1.0        5.0       7.0        8.0
+Race_Categories                                                 
+Asian                  94.943662   9.042254  0.452113   2.561972
+Black                  20.408451   1.943662  0.097183   0.550704
+Hispanic               40.816901   3.887324  0.194366   1.101408
+OTHER                  47.915493   4.563380  0.228169   1.292958
+White                 425.915493  40.563380  2.028169  11.492958
+
+Chi-Square Test:
+Chi2: 32.7235, df: 12, p-value: 0.0011
+Significant: Yes
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+Race_Categories  CareerStage_NRMNCC_4  count      mean       std  min   max
+          Asian                   1.0     97 30.371134 31.071262  2.0 140.0
+          Asian                   5.0      8 31.750000 32.074690  4.0 100.0
+          Asian                   8.0      2  7.000000  4.242641  4.0  10.0
+          Black                   1.0     19 16.157895 14.675237  2.0  50.0
+          Black                   5.0      3 38.000000 27.784888 20.0  70.0
+          Black                   8.0      1 15.000000       NaN 15.0  15.0
+       Hispanic                   1.0     31 25.370968 19.801502  4.0  80.0
+       Hispanic                   5.0     13 28.461538 25.912080  4.0  80.0
+       Hispanic                   7.0      1 20.000000       NaN 20.0  20.0
+       Hispanic                   8.0      1 25.000000       NaN 25.0  25.0
+          OTHER                   1.0     47 29.414894 26.202041  1.0 100.0
+          OTHER                   5.0      6 28.166667 15.038839  4.0  40.0
+          OTHER                   8.0      1 20.000000       NaN 20.0  20.0
+          White                   1.0    436 28.771789 28.743957  1.0 350.0
+          White                   5.0     30 41.966667 46.191866  5.0 200.0
+          White                   7.0      2 15.000000  7.071068 10.0  20.0
+          White                   8.0     12 21.333333 13.255073  6.0  40.0

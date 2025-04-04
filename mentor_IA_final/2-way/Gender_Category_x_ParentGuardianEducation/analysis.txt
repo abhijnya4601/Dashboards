@@ -1,0 +1,27 @@
+== Descriptive & Statistical Analysis: Gender_Category × ParentGuardianEducation on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+ParentGuardianEducation  1.0  2.0
+Gender_Category                  
+Female                   231   80
+Gender_Other               1    0
+Male                     227   84
+
+Expected Counts:
+ParentGuardianEducation         1.0        2.0
+Gender_Category                               
+Female                   229.131621  81.868379
+Gender_Other               0.736758   0.263242
+Male                     229.131621  81.868379
+
+Chi-Square Test:
+Chi2: 0.4905, df: 2, p-value: 0.7825
+Significant: No
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+Gender_Category  ParentGuardianEducation  count      mean       std  min   max
+         Female                      1.0    231 26.841991 24.728217  1.0 140.0
+         Female                      2.0     80 23.112500 15.321032  2.0  80.0
+   Gender_Other                      1.0      1  6.000000       NaN  6.0   6.0
+           Male                      1.0    227 31.074890 27.945683  2.0 200.0
+           Male                      2.0     84 31.285714 43.734294  1.0 350.0

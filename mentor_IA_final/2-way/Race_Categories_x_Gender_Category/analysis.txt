@@ -1,0 +1,39 @@
+== Descriptive & Statistical Analysis: Race_Categories × Gender_Category on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+Gender_Category  Female  Gender_Other  Male
+Race_Categories                            
+Asian                55             1    50
+Black                14             0     9
+Hispanic             19             1    26
+OTHER                27             0    28
+White               259             3   217
+
+Expected Counts:
+Gender_Category      Female  Gender_Other        Male
+Race_Categories                                      
+Asian             55.915374      0.747532   49.337094
+Black             12.132581      0.162200   10.705219
+Hispanic          24.265162      0.324401   21.410437
+OTHER             29.012694      0.387870   25.599436
+White            252.674189      3.377997  222.947814
+
+Chi-Square Test:
+Chi2: 5.4757, df: 8, p-value: 0.7057
+Significant: No
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+Race_Categories Gender_Category  count      mean       std  min   max
+          Asian          Female     55 28.854545 34.422978  2.0 140.0
+          Asian    Gender_Other      1 10.000000       NaN 10.0  10.0
+          Asian            Male     50 31.540000 27.224846  5.0 120.0
+          Black          Female     14 14.928571 16.981729  2.0  70.0
+          Black            Male      9 25.222222 17.115620  5.0  50.0
+       Hispanic          Female     19 27.789474 22.129867  4.0  80.0
+       Hispanic    Gender_Other      1  6.000000       NaN  6.0   6.0
+       Hispanic            Male     26 25.673077 20.658626  4.0  80.0
+          OTHER          Female     27 30.222222 24.179351  1.0 100.0
+          OTHER            Male     28 27.696429 25.529699  2.0 100.0
+          White          Female    259 27.133205 23.073329  1.0 200.0
+          White    Gender_Other      3 13.666667 14.153916  5.0  30.0
+          White            Male    217 32.253456 36.501082  1.0 350.0

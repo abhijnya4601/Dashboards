@@ -1,0 +1,10 @@
+== Cleaned Counts for ParentEdu (ParentGuardianEducation) ==
+ ParentGuardianEducation  Count
+                     1.0    423
+                     2.0    154
+
+== Descriptive Stats for Mentorship Hours by ParentEdu ==
+                         count       mean        std  min   25%   50%   75%    max
+ParentGuardianEducation                                                           
+1.0                      423.0  28.680851  26.247880  1.0  10.0  20.0  40.0  200.0
+2.0                      154.0  27.642857  34.032026  1.0  10.0  20.0  40.0  350.0

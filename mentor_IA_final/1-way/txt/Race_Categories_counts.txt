@@ -1,0 +1,16 @@
+== Cleaned Counts for Race (Race_Categories) ==
+Race_Categories  Count
+          White    483
+          Asian    101
+       Hispanic     30
+          Black     22
+          OTHER     17
+
+== Descriptive Stats for Mentorship Hours by Race ==
+                 count       mean        std  min   25%    50%   75%    max
+Race_Categories                                                            
+Asian            101.0  29.475248  29.767631  2.0   9.0  20.00  40.0  140.0
+Black             22.0  18.909091  17.824299  2.0   8.5  10.00  23.0   70.0
+Hispanic          30.0  23.816667  19.615477  4.0  10.0  17.75  30.0   80.0
+OTHER             17.0  34.941176  31.207913  4.0  16.0  20.00  40.0  100.0
+White            483.0  29.230849  29.892043  1.0  12.0  20.00  40.0  350.0

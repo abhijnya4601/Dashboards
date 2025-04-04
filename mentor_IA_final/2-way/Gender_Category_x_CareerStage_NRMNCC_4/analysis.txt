@@ -1,0 +1,32 @@
+== Descriptive & Statistical Analysis: Gender_Category × CareerStage_NRMNCC_4 on Freq_Ment2_Hours_Clean ==
+
+Observed Counts:
+CareerStage_NRMNCC_4  1.0  5.0  7.0  8.0
+Gender_Category                         
+Female                312   48    3    9
+Gender_Other            1    1    0    2
+Male                  312   11    0    6
+
+Expected Counts:
+CareerStage_NRMNCC_4         1.0        5.0       7.0       8.0
+Gender_Category                                                
+Female                329.787234  31.659574  1.582979  8.970213
+Gender_Other            3.546099   0.340426  0.017021  0.096454
+Male                  291.666667  28.000000  1.400000  7.933333
+
+Chi-Square Test:
+Chi2: 64.9619, df: 6, p-value: 0.0000
+Significant: Yes
+
+=== Descriptive Stats for Outcome (Freq_Ment2_Hours_Clean) ===
+Gender_Category  CareerStage_NRMNCC_4  count      mean       std  min   max
+         Female                   1.0    312 26.113782 22.806061  1.0 140.0
+         Female                   5.0     48 37.166667 36.186475  4.0 200.0
+         Female                   7.0      3 16.666667  5.773503 10.0  20.0
+         Female                   8.0      9 18.000000 13.369742  4.0  40.0
+   Gender_Other                   1.0      1  6.000000       NaN  6.0   6.0
+   Gender_Other                   5.0      1  6.000000       NaN  6.0   6.0
+   Gender_Other                   8.0      2 20.000000 14.142136 10.0  30.0
+           Male                   1.0    312 31.160256 32.836509  1.0 350.0
+           Male                   5.0     11 34.181818 44.266959  8.0 160.0
+           Male                   8.0      6 21.333333 11.690452  8.0  40.0
